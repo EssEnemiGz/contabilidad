@@ -599,20 +599,6 @@ body {
   z-index: 1;
 }
 
-.about-content::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  right: -20px;
-  width: 110px;
-  height: 110px;
-  background-image: url('../images/about-shape-2.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  z-index: -1;
-}
-
 .about :is(.section-subtitle, .section-title) { text-align: left; }
 
 .about .section-title { margin-block-end: 20px; }
@@ -1029,13 +1015,6 @@ body {
   /**
    * ABOUT
    */
-
-  .about-content::after {
-    top: -30px;
-    right: -50px;
-    width: 195px;
-    height: 195px;
-  }
 
   .about .section-title { --fs-2: 4.4rem; }
 
